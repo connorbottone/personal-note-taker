@@ -29,3 +29,4 @@ router.delete('/notes/:id', (req) => {
     })
     dataBase = db
 })
+module.exports = router
