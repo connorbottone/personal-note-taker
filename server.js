@@ -1,4 +1,4 @@
-//requireing all necassary ext
+//requireing all necassary ext//
 const express = require('express');
 const path = require('path');
 const api = require('./routes/index.js');
@@ -15,12 +15,12 @@ app.use('/api', api);
 app.use(express.static('public'));
 // GET Route to render homepage"index.html"
 app.get('/', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/index.html'))
+  res.sendFile(path.join(__dirname, '/public/assets/index.html'))
 );
 
 // GET Route for feedback page"notes.html"
 app.get('/notes', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/notes.html'))
+  res.sendFile(path.join(__dirname, '/public/assets/notes.html'))
 );
 
 
