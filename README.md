@@ -1,5 +1,7 @@
 ## Description
  [https://cbottone-personal-note-taker.herokuapp.com/]
+ 
+[Untitled_ Jan 23, 2023 4_13 PM.webm](https://user-images.githubusercontent.com/42557300/214151462-186df40c-1eb1-4f4f-b499-0e2ae8858a88.webm)
 
 - This webpage is desgined to orginze your daily notes
 - Ths user can save there text inputs giving there entry a unique title and area to write there note.
